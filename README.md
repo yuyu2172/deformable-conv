@@ -13,13 +13,14 @@ pip install chainercv
 
 + Chainer with Deformable Covolution, which is implmented in my fork repository of Chainer. The corresponding PR can be found at https://github.com/pfnet/chainer/pull/2468 .
 
-+ [ChainerCV](https://github.com/pfnet/chainercv): version 0.45 or later.
++ [ChainerCV](https://github.com/pfnet/chainercv): version 0.4.5 or later.
 
 
 
 ## Implementation
 
 Implementation of deformable convolution can be found at my [fork repository of Chainer](https://github.com/yuyu2172/chainer/blob/deformable/chainer/functions/connection/deformable_convolution_2d_sampler.py).
+The test code for the implementation can be found [here](https://github.com/yuyu2172/chainer/blob/deformable/tests/chainer_tests/functions_tests/connection_tests/test_deformable_convolution_2d_sampler.py).
 
 ## Experiments
 
