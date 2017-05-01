@@ -75,7 +75,7 @@ class BuildingBlockDeformable(link.Chain):
                 in_channels, mid_channels, out_channels, stride, initialW))
         ]
         links.append(('b1', BottleneckB(out_channels, mid_channels, initialW)))
-        links.append(('b2', BottleneckB(out_channels, mid_channels, initialW)))
+        links.append(('b2', DeformableBottleneckB(out_channels, mid_channels, initialW)))
         super(BuildingBlockDeformable, self).__init__(**dict(links))
         self.forward = links
 

@@ -67,7 +67,7 @@ def main(gpus=[0, 1, 2], model_mode='resnet',
         gpus = [gpus]
     lr = lr / float(len(gpus))  # adjust lr
 
-    iteration = 240000 / len(gpus)  # 30k * batch_size=8
+    iteration = int(240000 / len(gpus))  # 30k * batch_size=8
     step_size = int(iteration * (2. / 3.))
     labels = pascal_voc_labels
     train_07_data = VOCDetectionDataset(mode='trainval', year='2007')
@@ -143,7 +143,7 @@ def main(gpus=[0, 1, 2], model_mode='resnet',
                    trigger=(step_size, 'iteration'))
 
     log_interval = 20, 'iteration'
-    val_interval = 70000, 'iteration'
+    val_interval = iteration, 'iteration'
     plot_interval = 3000, 'iteration'
     print_interval = 20, 'iteration'
 
@@ -216,13 +216,11 @@ def main(gpus=[0, 1, 2], model_mode='resnet',
         bbox = transforms.resize_bbox(bbox, (W, H), (o_W, o_H))
         return img, bbox, label, scale, difficult
         
-    use_07_metric = True
     trainer.extend(
         DetectionReport(
             model, test_data,gpus[0], len(labels), minoverlap=0.5,
-            use_07_metric=use_07_metric, post_transform=post_transform),
+            use_07_metric=True, post_transform=post_transform),
         trigger=val_interval, invoke_before_training=False
-
     )
 
     trainer.extend(extensions.dump_graph('main/loss'))
