@@ -1,0 +1,134 @@
+[
+    {
+        "main/rpn_loss_bbox": 0.2111234962940216, 
+        "main/loss": 7.4567551612854, 
+        "iteration": 20, 
+        "main/loss_bbox": 0.3810696005821228, 
+        "elapsed_time": 11.896548986434937, 
+        "epoch": 0, 
+        "main/loss_cls": 6.421530246734619, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.443032443523407
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.8221942186355591, 
+        "main/loss": 2.8248555660247803, 
+        "iteration": 40, 
+        "main/loss_bbox": 0.432748407125473, 
+        "elapsed_time": 23.0864679813385, 
+        "epoch": 0, 
+        "main/loss_cls": 1.2433905601501465, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.3265225291252136
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.29762664437294006, 
+        "main/loss": 1.4377738237380981, 
+        "iteration": 60, 
+        "main/loss_bbox": 0.14451046288013458, 
+        "elapsed_time": 33.837636947631836, 
+        "epoch": 0, 
+        "main/loss_cls": 0.7293968796730042, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.266239732503891
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.2648019790649414, 
+        "main/loss": 1.790222406387329, 
+        "iteration": 80, 
+        "main/loss_bbox": 0.17714937031269073, 
+        "elapsed_time": 44.32024693489075, 
+        "epoch": 0, 
+        "main/loss_cls": 1.0629760026931763, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.2852950096130371
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.17576488852500916, 
+        "main/loss": 1.6450912952423096, 
+        "iteration": 100, 
+        "main/loss_bbox": 0.2512660324573517, 
+        "elapsed_time": 55.066351890563965, 
+        "epoch": 0, 
+        "main/loss_cls": 0.9141466021537781, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.30391380190849304
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.13712318241596222, 
+        "main/loss": 1.6855437755584717, 
+        "iteration": 120, 
+        "main/loss_bbox": 0.3045417070388794, 
+        "elapsed_time": 65.65556788444519, 
+        "epoch": 0, 
+        "main/loss_cls": 0.891156017780304, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.35272306203842163
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.11909522861242294, 
+        "main/loss": 0.9471914172172546, 
+        "iteration": 140, 
+        "main/loss_bbox": 0.1285446733236313, 
+        "elapsed_time": 76.63137483596802, 
+        "epoch": 0, 
+        "main/loss_cls": 0.3997861444950104, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.299765408039093
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.10077537596225739, 
+        "main/loss": 0.8888171315193176, 
+        "iteration": 160, 
+        "main/loss_bbox": 0.11698434501886368, 
+        "elapsed_time": 86.16881585121155, 
+        "epoch": 0, 
+        "main/loss_cls": 0.3840680718421936, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.28698936104774475
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.07383910566568375, 
+        "main/loss": 1.071794867515564, 
+        "iteration": 180, 
+        "main/loss_bbox": 0.14756925404071808, 
+        "elapsed_time": 96.44107103347778, 
+        "epoch": 0, 
+        "main/loss_cls": 0.5588523149490356, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.29153427481651306
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.10044946521520615, 
+        "main/loss": 1.2254517078399658, 
+        "iteration": 200, 
+        "main/loss_bbox": 0.22481636703014374, 
+        "elapsed_time": 107.91577386856079, 
+        "epoch": 0, 
+        "main/loss_cls": 0.615315318107605, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.28487080335617065
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.09557238221168518, 
+        "main/loss": 1.0986918210983276, 
+        "iteration": 220, 
+        "main/loss_bbox": 0.21135199069976807, 
+        "elapsed_time": 118.47800588607788, 
+        "epoch": 0, 
+        "main/loss_cls": 0.5066839456558228, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.285083532333374
+    }, 
+    {
+        "main/rpn_loss_bbox": 0.13926847279071808, 
+        "main/loss": 1.0565192699432373, 
+        "iteration": 240, 
+        "main/loss_bbox": 0.15479052066802979, 
+        "elapsed_time": 130.31812191009521, 
+        "epoch": 0, 
+        "main/loss_cls": 0.46008235216140747, 
+        "lr": 0.001, 
+        "main/rpn_loss_cls": 0.3023777902126312
+    }
+]
